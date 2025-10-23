@@ -45,22 +45,22 @@ optuna:
   n_trials: 30
   direction: maximize
   search_space:
-    learning_rate:
+    training.optimizer.learning_rate:
       type: loguniform
       low: 1e-3
       high: 1e-1
-    batch_size:
+    training.batch_size:
       type: categorical
       choices: [64, 128, 256]
-    weight_decay:
+    training.optimizer.weight_decay:
       type: loguniform
       low: 1e-6
       high: 1e-3
-    m0:
+    curve_compression.m0:
       type: int
       low: 20
       high: 180
-    g0:
+    curve_compression.g0:
       type: loguniform
       low: 1e-3
       high: 0.2

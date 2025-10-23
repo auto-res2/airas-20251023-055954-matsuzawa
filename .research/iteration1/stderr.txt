@@ -238,3 +238,212 @@ Will assume defaults for version 1.1
 See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
   ret = run_job(
   0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 32.8k/170M [00:00<15:26, 184kB/s]  0%|          | 65.5k/170M [00:00<15:09, 187kB/s]  0%|          | 98.3k/170M [00:00<15:14, 186kB/s]  0%|          | 229k/170M [00:00<07:03, 402kB/s]   0%|          | 459k/170M [00:00<03:52, 730kB/s]  1%|          | 918k/170M [00:01<02:03, 1.37MB/s]  1%|          | 1.84M/170M [00:01<01:04, 2.63MB/s]  2%|▏         | 3.67M/170M [00:01<00:29, 5.64MB/s]  4%|▎         | 6.32M/170M [00:01<00:15, 10.3MB/s]  4%|▍         | 7.60M/170M [00:01<00:16, 9.84MB/s]  6%|▌         | 9.93M/170M [00:01<00:14, 11.5MB/s]  8%|▊         | 13.1M/170M [00:01<00:11, 13.6MB/s]  9%|▉         | 16.2M/170M [00:02<00:09, 16.5MB/s] 11%|█         | 18.0M/170M [00:02<00:09, 16.7MB/s] 12%|█▏        | 19.7M/170M [00:02<00:10, 15.0MB/s] 13%|█▎        | 22.5M/170M [00:02<00:09, 16.1MB/s] 15%|█▍        | 25.5M/170M [00:02<00:07, 18.4MB/s] 16%|█▌        | 27.4M/170M [00:02<00:07, 18.1MB/s] 17%|█▋        | 29.3M/170M [00:02<00:08, 15.8MB/s] 19%|█▊        | 31.8M/170M [00:02<00:08, 17.1MB/s] 20%|██        | 34.7M/170M [00:03<00:07, 18.6MB/s] 21%|██▏       | 36.6M/170M [00:03<00:07, 17.8MB/s] 23%|██▎       | 38.4M/170M [00:03<00:08, 15.8MB/s] 24%|██▍       | 41.2M/170M [00:03<00:07, 17.5MB/s] 25%|██▌       | 43.4M/170M [00:03<00:06, 18.5MB/s] 27%|██▋       | 45.3M/170M [00:03<00:07, 16.6MB/s] 28%|██▊       | 47.4M/170M [00:03<00:07, 17.6MB/s] 29%|██▉       | 49.7M/170M [00:03<00:06, 18.9MB/s] 30%|███       | 51.6M/170M [00:04<00:07, 16.5MB/s] 32%|███▏      | 53.8M/170M [00:04<00:06, 16.9MB/s] 33%|███▎      | 56.6M/170M [00:04<00:05, 19.6MB/s] 34%|███▍      | 58.6M/170M [00:04<00:06, 17.7MB/s] 35%|███▌      | 60.5M/170M [00:04<00:06, 15.9MB/s] 37%|███▋      | 62.9M/170M [00:04<00:06, 17.7MB/s] 38%|███▊      | 64.8M/170M [00:04<00:06, 17.1MB/s] 39%|███▉      | 66.6M/170M [00:04<00:06, 17.1MB/s] 40%|████      | 68.5M/170M [00:05<00:05, 17.6MB/s] 41%|████      | 70.3M/170M [00:05<00:06, 15.5MB/s] 43%|████▎     | 72.6M/170M [00:05<00:06, 14.9MB/s] 44%|████▍     | 75.6M/170M [00:05<00:06, 15.5MB/s] 46%|████▌     | 78.6M/170M [00:05<00:05, 15.7MB/s] 48%|████▊     | 81.5M/170M [00:05<00:05, 15.8MB/s] 50%|████▉     | 84.4M/170M [00:06<00:05, 15.8MB/s] 51%|█████     | 87.3M/170M [00:06<00:05, 15.8MB/s] 53%|█████▎    | 90.3M/170M [00:06<00:05, 15.9MB/s] 55%|█████▍    | 93.1M/170M [00:06<00:04, 18.2MB/s] 56%|█████▌    | 95.0M/170M [00:06<00:04, 16.7MB/s] 57%|█████▋    | 96.8M/170M [00:06<00:04, 15.8MB/s] 58%|█████▊    | 99.0M/170M [00:07<00:04, 15.0MB/s] 60%|█████▉    | 102M/170M [00:07<00:04, 15.5MB/s]  62%|██████▏   | 105M/170M [00:07<00:04, 15.7MB/s] 63%|██████▎   | 108M/170M [00:07<00:03, 16.0MB/s] 65%|██████▌   | 111M/170M [00:07<00:03, 16.2MB/s] 67%|██████▋   | 114M/170M [00:07<00:03, 16.4MB/s] 69%|██████▊   | 117M/170M [00:08<00:03, 16.3MB/s] 70%|███████   | 120M/170M [00:08<00:03, 16.3MB/s] 72%|███████▏  | 123M/170M [00:08<00:02, 16.3MB/s] 74%|███████▍  | 126M/170M [00:08<00:02, 16.2MB/s] 76%|███████▌  | 129M/170M [00:08<00:02, 16.2MB/s] 77%|███████▋  | 132M/170M [00:09<00:02, 16.1MB/s] 79%|███████▉  | 135M/170M [00:09<00:02, 16.1MB/s] 80%|████████  | 137M/170M [00:09<00:01, 18.1MB/s] 82%|████████▏ | 139M/170M [00:09<00:01, 16.7MB/s] 83%|████████▎ | 141M/170M [00:09<00:01, 16.1MB/s] 84%|████████▍ | 143M/170M [00:09<00:01, 15.3MB/s] 86%|████████▌ | 146M/170M [00:09<00:01, 15.9MB/s] 88%|████████▊ | 149M/170M [00:10<00:01, 16.5MB/s] 89%|████████▉ | 152M/170M [00:10<00:01, 16.3MB/s] 91%|█████████ | 155M/170M [00:10<00:00, 16.4MB/s] 93%|█████████▎| 158M/170M [00:10<00:00, 16.6MB/s] 95%|█████████▍| 162M/170M [00:10<00:00, 16.9MB/s] 97%|█████████▋| 165M/170M [00:11<00:00, 17.2MB/s] 98%|█████████▊| 168M/170M [00:11<00:00, 17.3MB/s]100%|██████████| 170M/170M [00:11<00:00, 15.1MB/s]
+Using CPython 3.11.13
+Creating virtual environment at: .venv
+Resolved 105 packages in 175ms
+Installed 95 packages in 5.34s
+ + aiohappyeyeballs==2.6.1
+ + aiohttp==3.13.1
+ + aiosignal==1.4.0
+ + alembic==1.17.0
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + anyio==4.11.0
+ + attrs==25.4.0
+ + certifi==2025.10.5
+ + charset-normalizer==3.4.4
+ + click==8.3.0
+ + colorlog==6.10.1
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + datasets==4.2.0
+ + dill==0.4.0
+ + filelock==3.20.0
+ + fonttools==4.60.1
+ + frozenlist==1.8.0
+ + fsspec==2025.9.0
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + greenlet==3.2.4
+ + h11==0.16.0
+ + hf-xet==1.1.10
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + huggingface-hub==0.35.3
+ + hydra-core==1.3.2
+ + idna==3.11
+ + jinja2==3.1.6
+ + joblib==1.5.2
+ + kiwisolver==1.4.9
+ + mako==1.3.10
+ + markupsafe==3.0.3
+ + matplotlib==3.10.7
+ + mpmath==1.3.0
+ + multidict==6.7.0
+ + multiprocess==0.70.16
+ + networkx==3.5
+ + numpy==2.3.4
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-cupti-cu12==12.8.90
+ + nvidia-cuda-nvrtc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + nvidia-cudnn-cu12==9.10.2.21
+ + nvidia-cufft-cu12==11.3.3.83
+ + nvidia-cufile-cu12==1.13.1.3
+ + nvidia-curand-cu12==10.3.9.90
+ + nvidia-cusolver-cu12==11.7.3.90
+ + nvidia-cusparse-cu12==12.5.8.93
+ + nvidia-cusparselt-cu12==0.7.1
+ + nvidia-nccl-cu12==2.27.5
+ + nvidia-nvjitlink-cu12==12.8.93
+ + nvidia-nvshmem-cu12==3.3.20
+ + nvidia-nvtx-cu12==12.8.90
+ + omegaconf==2.3.0
+ + optuna==4.5.0
+ + packaging==25.0
+ + pandas==2.3.3
+ + pillow==12.0.0
+ + platformdirs==4.5.0
+ + propcache==0.4.1
+ + protobuf==6.33.0
+ + pyarrow==21.0.0
+ + pydantic==2.12.3
+ + pydantic-core==2.41.4
+ + pyparsing==3.2.5
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + pyyaml==6.0.3
+ + requests==2.32.5
+ + safetensors==0.6.2
+ + scikit-learn==1.7.2
+ + scipy==1.16.2
+ + seaborn==0.13.2
+ + sentry-sdk==2.42.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + sqlalchemy==2.0.44
+ + sympy==1.14.0
+ + threadpoolctl==3.6.0
+ + timm==1.0.20
+ + torch==2.9.0
+ + torchvision==0.24.0
+ + tqdm==4.67.1
+ + triton==3.5.0
+ + typing-extensions==4.15.0
+ + typing-inspection==0.4.2
+ + tzdata==2025.2
+ + urllib3==2.5.0
+ + wandb==0.22.2
+ + xxhash==3.6.0
+ + yarl==1.22.0
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/main.py:8: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="../config", config_name="config")
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py:204: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="../config", config_name="config")
+/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+wandb: Currently logged in as: gengaru617 (gengaru617-personal) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run proposed-ResNet-20-0.27-M-parameters--CIFAR-10
+wandb: Tracking run with wandb version 0.22.2
+wandb: Run data is saved locally in /home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/outputs/2025-10-23/06-43-17/outputs/2025-10-23/06-43-33/wandb/run-20251023_064333-proposed-ResNet-20-0.27-M-parameters--CIFAR-10
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run proposed-ResNet-20-0.27-M-parameters--CIFAR-10
+wandb: ⭐️ View project at https://wandb.ai/gengaru617-personal/251023-test
+wandb: 🚀 View run at https://wandb.ai/gengaru617-personal/251023-test/runs/proposed-ResNet-20-0.27-M-parameters--CIFAR-10
+wandb: WARNING The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+[I 2025-10-23 06:43:36,371] A new study created in memory with name: no-name-8df5e1f8-1d01-4e3f-b2ad-59f89f271d28
+[W 2025-10-23 06:43:36,377] Trial 0 failed with parameters: {'learning_rate': 0.011502728122326228} because of the following error: ConfigKeyError("Key 'learning_rate' is not in struct\n    full_key: run.learning_rate\n    object_type=dict").
+Traceback (most recent call last):
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py", line 195, in _inner
+    out = train_once(tmp_cfg, trial)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py", line 70, in train_once
+    target[parts[-1]] = sampled
+    ~~~~~~^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 310, in __setitem__
+    self._format_and_raise(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/base.py", line 231, in _format_and_raise
+    format_and_raise(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 819, in format_and_raise
+    _raise(ex, cause)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 797, in _raise
+    raise ex.with_traceback(sys.exc_info()[2])  # set env var OC_CAUSE=1 for full trace
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 308, in __setitem__
+    self.__set_impl(key=key, value=value)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 318, in __set_impl
+    self._set_item_impl(key, value)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/basecontainer.py", line 549, in _set_item_impl
+    self._validate_set(key, value)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 180, in _validate_set
+    target = self._get_node(key) if key is not None else self
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 475, in _get_node
+    self._validate_get(key)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/dictconfig.py", line 164, in _validate_get
+    self._format_and_raise(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/base.py", line 231, in _format_and_raise
+    format_and_raise(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 899, in format_and_raise
+    _raise(ex, cause)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/omegaconf/_utils.py", line 797, in _raise
+    raise ex.with_traceback(sys.exc_info()[2])  # set env var OC_CAUSE=1 for full trace
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+omegaconf.errors.ConfigKeyError: Key 'learning_rate' is not in struct
+    full_key: run.learning_rate
+    object_type=dict
+[W 2025-10-23 06:43:36,379] Trial 0 failed with value None.
+Error executing job with overrides: ['run=proposed-ResNet-20-0.27-M-parameters--CIFAR-10', 'results_dir=.research/iteration1', 'mode=full', 'wandb.mode=online', 'run.optuna.n_trials=30', 'run.training.epochs=200', 'run.training.batch_size=128']
+Traceback (most recent call last):
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py", line 225, in main
+    study.optimize(_objective(cfg), n_trials=cfg.run.optuna.n_trials)
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 63, in _optimize
+    _optimize_sequential(
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 258, in _run_trial
+    raise func_err
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py", line 195, in _inner
+    out = train_once(tmp_cfg, trial)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py", line 70, in train_once
+    target[parts[-1]] = sampled
+    ~~~~~~^^^^^^^^^^^
+omegaconf.errors.ConfigKeyError: Key 'learning_rate' is not in struct
+    full_key: run.learning_rate
+    object_type=dict
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Error executing job with overrides: ['run=proposed-ResNet-20-0.27-M-parameters--CIFAR-10', 'results_dir=.research/iteration1', 'mode=full']
+Traceback (most recent call last):
+  File "/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/main.py", line 41, in main
+    subprocess.run(cmd, check=True)
+  File "/home/toma/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', '-u', '/home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py', 'run=proposed-ResNet-20-0.27-M-parameters--CIFAR-10', 'results_dir=.research/iteration1', 'mode=full', 'wandb.mode=online', 'run.optuna.n_trials=30', 'run.training.epochs=200', 'run.training.batch_size=128']' returned non-zero exit status 1.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -16,3 +16,13 @@ python -u /home/toma/t-80-8-a/_work/airas-20251023-055954-matsuzawa/airas-202510
 Saved metrics to /home/toma/t-80-8-a/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/outputs/2025-10-23/06-40-49/.research/iteration1/comparative-1-ResNet-20-0.27-M-parameters--CIFAR-10/model_final.pth
 === [TRIAL RUN] PASSED for comparative-1-ResNet-20-0.27-M-parameters--CIFAR-10 at Thu Oct 23 06:41:29 AM UTC 2025 ===
 
+=== [UV SYNC] Start at Thu Oct 23 06:43:11 AM UTC 2025 ===
+=== [UV SYNC] Finished successfully at Thu Oct 23 06:43:16 AM UTC 2025 ===
+=== [FULL EXPERIMENT] Start for proposed-ResNet-20-0.27-M-parameters--CIFAR-10 at Thu Oct 23 06:43:16 AM UTC 2025 ===
+Saved final config to /home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/outputs/2025-10-23/06-43-17/.research/iteration1/config.yaml
+Launching training subprocess:
+python -u /home/toma/t-80-8-b-04/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py run=proposed-ResNet-20-0.27-M-parameters--CIFAR-10 results_dir=.research/iteration1 mode=full wandb.mode=online run.optuna.n_trials=30 run.training.epochs=200 run.training.batch_size=128
+WandB URL: https://wandb.ai/gengaru617-personal/251023-test/runs/proposed-ResNet-20-0.27-M-parameters--CIFAR-10
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mproposed-ResNet-20-0.27-M-parameters--CIFAR-10[0m at: [34mhttps://wandb.ai/gengaru617-personal/251023-test/runs/proposed-ResNet-20-0.27-M-parameters--CIFAR-10[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20251023_064333-proposed-ResNet-20-0.27-M-parameters--CIFAR-10/logs[0m
