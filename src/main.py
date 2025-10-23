@@ -35,7 +35,8 @@ def main(cfg: DictConfig):
         f"run.training.batch_size={cfg.run.training.batch_size}",
     ]
 
-    cmd = ["python", "-u", "-m", "src.train"] + overrides
+    train_script = Path(__file__).parent / "train.py"
+    cmd = ["python", "-u", str(train_script)] + overrides
     print("Launching training subprocess:\n" + " ".join(shlex.quote(c) for c in cmd))
     subprocess.run(cmd, check=True)
 
