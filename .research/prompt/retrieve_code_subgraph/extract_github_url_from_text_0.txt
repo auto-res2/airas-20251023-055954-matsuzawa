@@ -1,0 +1,18 @@
+
+LLM Name: gemini-2.5-flash
+Input:
+# Task
+You carefully read the contents of the “Paper Outline” and select one GitHub link from the “GitHub URLs List” that you think is most relevant to the contents.
+# Constraints
+- Output the index number corresponding to the selected GitHub URL.
+- Be sure to select only one GitHub URL.
+- If there is no related GitHub link, output None.
+# Paper Outline
+The proposed Bayesian Optimization for Iterative Learning (BOIL) approach exploits the iterative structure of learning algorithms. It models the cost-sensitive black-box function using a Gaussian Process (GP) over the joint space of input hyperparameters and training iterations. Instead of using final averaged performance, BOIL compresses the entire learning curve into a numeric score using a Sigmoid preference function, parameterized by growth (g0) and middle point (m0), which are learned by maximizing the GP log marginal likelihood. To increase sample-efficiency and prevent GP covariance matrix ill-conditioning, BOIL employs a data augmentation technique that selectively includes a subset of points from the observed training curve (at most M=15 points), choosing samples at maximum GP predictive uncertainty and ensuring the natural log of the covariance matrix condition number stays below a threshold (delta=20). The next hyperparameter and iteration count are selected by maximizing an acquisition function (Expected Improvement) normalized by the predicted training cost.
+
+# GitHub URLs List
+['https://github.com/ntienvu/BOIL']
+Output:
+{
+    "index": 0
+}
