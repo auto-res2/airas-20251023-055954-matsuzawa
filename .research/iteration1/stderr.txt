@@ -1,0 +1,120 @@
+Using CPython 3.11.13
+Creating virtual environment at: .venv
+Resolved 105 packages in 93ms
+Installed 95 packages in 4.52s
+ + aiohappyeyeballs==2.6.1
+ + aiohttp==3.13.1
+ + aiosignal==1.4.0
+ + alembic==1.17.0
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + anyio==4.11.0
+ + attrs==25.4.0
+ + certifi==2025.10.5
+ + charset-normalizer==3.4.4
+ + click==8.3.0
+ + colorlog==6.10.1
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + datasets==4.2.0
+ + dill==0.4.0
+ + filelock==3.20.0
+ + fonttools==4.60.1
+ + frozenlist==1.8.0
+ + fsspec==2025.9.0
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + greenlet==3.2.4
+ + h11==0.16.0
+ + hf-xet==1.1.10
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + huggingface-hub==0.35.3
+ + hydra-core==1.3.2
+ + idna==3.11
+ + jinja2==3.1.6
+ + joblib==1.5.2
+ + kiwisolver==1.4.9
+ + mako==1.3.10
+ + markupsafe==3.0.3
+ + matplotlib==3.10.7
+ + mpmath==1.3.0
+ + multidict==6.7.0
+ + multiprocess==0.70.16
+ + networkx==3.5
+ + numpy==2.3.4
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-cupti-cu12==12.8.90
+ + nvidia-cuda-nvrtc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + nvidia-cudnn-cu12==9.10.2.21
+ + nvidia-cufft-cu12==11.3.3.83
+ + nvidia-cufile-cu12==1.13.1.3
+ + nvidia-curand-cu12==10.3.9.90
+ + nvidia-cusolver-cu12==11.7.3.90
+ + nvidia-cusparse-cu12==12.5.8.93
+ + nvidia-cusparselt-cu12==0.7.1
+ + nvidia-nccl-cu12==2.27.5
+ + nvidia-nvjitlink-cu12==12.8.93
+ + nvidia-nvshmem-cu12==3.3.20
+ + nvidia-nvtx-cu12==12.8.90
+ + omegaconf==2.3.0
+ + optuna==4.5.0
+ + packaging==25.0
+ + pandas==2.3.3
+ + pillow==12.0.0
+ + platformdirs==4.5.0
+ + propcache==0.4.1
+ + protobuf==6.33.0
+ + pyarrow==21.0.0
+ + pydantic==2.12.3
+ + pydantic-core==2.41.4
+ + pyparsing==3.2.5
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + pyyaml==6.0.3
+ + requests==2.32.5
+ + safetensors==0.6.2
+ + scikit-learn==1.7.2
+ + scipy==1.16.2
+ + seaborn==0.13.2
+ + sentry-sdk==2.42.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + sqlalchemy==2.0.44
+ + sympy==1.14.0
+ + threadpoolctl==3.6.0
+ + timm==1.0.20
+ + torch==2.9.0
+ + torchvision==0.24.0
+ + tqdm==4.67.1
+ + triton==3.5.0
+ + typing-extensions==4.15.0
+ + typing-inspection==0.4.2
+ + tzdata==2025.2
+ + urllib3==2.5.0
+ + wandb==0.22.2
+ + xxhash==3.6.0
+ + yarl==1.22.0
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/main.py:8: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="../config", config_name="config")
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py:204: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="../config", config_name="config")
+/home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/.venv/lib/python3.11/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+  0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 32.8k/170M [00:00<13:53, 205kB/s]  0%|          | 65.5k/170M [00:00<13:54, 204kB/s]  0%|          | 98.3k/170M [00:00<13:57, 203kB/s]  0%|          | 229k/170M [00:00<06:23, 444kB/s]   0%|          | 459k/170M [00:00<03:33, 795kB/s]  1%|          | 918k/170M [00:00<01:53, 1.49MB/s]  1%|          | 1.84M/170M [00:01<00:58, 2.86MB/s]  2%|▏         | 3.67M/170M [00:01<00:29, 5.57MB/s]  4%|▎         | 6.36M/170M [00:01<00:18, 9.01MB/s]  6%|▌         | 9.40M/170M [00:01<00:13, 11.9MB/s]  7%|▋         | 12.3M/170M [00:01<00:11, 13.7MB/s]  9%|▉         | 15.4M/170M [00:01<00:10, 15.2MB/s] 11%|█         | 18.4M/170M [00:02<00:09, 16.0MB/s] 13%|█▎        | 21.4M/170M [00:02<00:08, 16.6MB/s] 14%|█▍        | 24.3M/170M [00:02<00:08, 16.9MB/s] 16%|█▌        | 27.3M/170M [00:02<00:08, 17.1MB/s] 18%|█▊        | 30.1M/170M [00:02<00:08, 17.2MB/s] 19%|█▉        | 32.9M/170M [00:02<00:07, 19.3MB/s] 20%|██        | 34.9M/170M [00:03<00:07, 18.2MB/s] 22%|██▏       | 36.8M/170M [00:03<00:07, 17.7MB/s] 23%|██▎       | 39.2M/170M [00:03<00:07, 16.8MB/s] 25%|██▍       | 42.3M/170M [00:03<00:07, 17.5MB/s] 26%|██▋       | 45.1M/170M [00:03<00:06, 19.7MB/s] 28%|██▊       | 47.1M/170M [00:03<00:06, 18.3MB/s] 29%|██▉       | 49.0M/170M [00:03<00:07, 17.0MB/s] 30%|███       | 51.3M/170M [00:03<00:06, 17.1MB/s] 32%|███▏      | 53.8M/170M [00:04<00:06, 19.0MB/s] 33%|███▎      | 55.8M/170M [00:04<00:06, 17.6MB/s] 34%|███▍      | 57.6M/170M [00:04<00:06, 17.0MB/s] 35%|███▌      | 60.0M/170M [00:04<00:06, 16.3MB/s] 37%|███▋      | 62.8M/170M [00:04<00:06, 16.7MB/s] 38%|███▊      | 65.2M/170M [00:04<00:05, 18.3MB/s] 39%|███▉      | 67.2M/170M [00:04<00:05, 17.5MB/s] 40%|████      | 69.0M/170M [00:04<00:05, 16.9MB/s] 42%|████▏     | 71.5M/170M [00:05<00:05, 18.9MB/s] 43%|████▎     | 73.4M/170M [00:05<00:05, 17.3MB/s] 44%|████▍     | 75.2M/170M [00:05<00:05, 17.1MB/s] 45%|████▌     | 77.2M/170M [00:05<00:05, 17.8MB/s] 46%|████▋     | 79.0M/170M [00:05<00:05, 17.1MB/s] 47%|████▋     | 80.8M/170M [00:05<00:05, 16.4MB/s] 49%|████▉     | 83.3M/170M [00:05<00:05, 16.6MB/s] 50%|█████     | 86.0M/170M [00:05<00:04, 19.4MB/s] 52%|█████▏    | 88.0M/170M [00:06<00:04, 17.6MB/s] 53%|█████▎    | 89.8M/170M [00:06<00:04, 17.6MB/s] 54%|█████▍    | 92.2M/170M [00:06<00:04, 19.2MB/s] 55%|█████▌    | 94.2M/170M [00:06<00:04, 17.7MB/s] 56%|█████▋    | 96.0M/170M [00:06<00:04, 17.3MB/s] 58%|█████▊    | 98.3M/170M [00:06<00:03, 18.7MB/s] 59%|█████▉    | 100M/170M [00:06<00:04, 17.5MB/s]  60%|█████▉    | 102M/170M [00:06<00:03, 17.5MB/s] 61%|██████▏   | 105M/170M [00:06<00:03, 16.9MB/s] 63%|██████▎   | 107M/170M [00:07<00:03, 17.0MB/s] 64%|██████▍   | 110M/170M [00:07<00:03, 18.5MB/s] 66%|██████▌   | 112M/170M [00:07<00:03, 18.8MB/s] 67%|██████▋   | 114M/170M [00:07<00:03, 16.7MB/s] 68%|██████▊   | 116M/170M [00:07<00:02, 18.8MB/s] 69%|██████▉   | 118M/170M [00:07<00:03, 17.4MB/s] 70%|███████   | 120M/170M [00:07<00:03, 16.8MB/s] 72%|███████▏  | 122M/170M [00:08<00:02, 16.4MB/s] 73%|███████▎  | 125M/170M [00:08<00:02, 18.0MB/s] 74%|███████▍  | 126M/170M [00:08<00:02, 16.6MB/s] 75%|███████▌  | 128M/170M [00:08<00:02, 16.8MB/s] 76%|███████▌  | 130M/170M [00:08<00:02, 17.0MB/s] 77%|███████▋  | 132M/170M [00:08<00:02, 16.9MB/s] 78%|███████▊  | 134M/170M [00:08<00:02, 16.6MB/s] 80%|███████▉  | 136M/170M [00:08<00:02, 17.1MB/s] 81%|████████  | 137M/170M [00:08<00:01, 17.0MB/s] 82%|████████▏ | 139M/170M [00:08<00:01, 17.7MB/s] 83%|████████▎ | 141M/170M [00:09<00:01, 17.1MB/s] 84%|████████▍ | 143M/170M [00:09<00:01, 17.0MB/s] 85%|████████▌ | 145M/170M [00:09<00:01, 17.8MB/s] 86%|████████▌ | 147M/170M [00:09<00:01, 16.7MB/s] 87%|████████▋ | 148M/170M [00:09<00:01, 15.9MB/s] 88%|████████▊ | 150M/170M [00:09<00:01, 16.3MB/s] 89%|████████▉ | 152M/170M [00:09<00:01, 16.3MB/s] 90%|█████████ | 154M/170M [00:09<00:01, 16.1MB/s] 91%|█████████ | 155M/170M [00:09<00:00, 16.6MB/s] 92%|█████████▏| 157M/170M [00:10<00:00, 16.6MB/s] 93%|█████████▎| 159M/170M [00:10<00:01, 10.2MB/s] 95%|█████████▍| 162M/170M [00:10<00:00, 12.6MB/s] 96%|█████████▌| 163M/170M [00:10<00:00, 13.6MB/s] 97%|█████████▋| 165M/170M [00:10<00:00, 12.4MB/s] 98%|█████████▊| 167M/170M [00:10<00:00, 12.9MB/s] 99%|█████████▊| 168M/170M [00:11<00:00, 13.6MB/s] 99%|█████████▉| 170M/170M [00:11<00:00, 13.6MB/s]100%|██████████| 170M/170M [00:11<00:00, 15.2MB/s]

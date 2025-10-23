@@ -1,0 +1,9 @@
+=== [UV SYNC] Start at Thu Oct 23 06:38:47 AM UTC 2025 ===
+=== [UV SYNC] Finished successfully at Thu Oct 23 06:38:52 AM UTC 2025 ===
+=== [TRIAL RUN] Start for proposed-ResNet-20-0.27-M-parameters--CIFAR-10 at Thu Oct 23 06:38:52 AM UTC 2025 ===
+Saved final config to /home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/outputs/2025-10-23/06-38-53/.research/iteration1/config.yaml
+Launching training subprocess:
+python -u /home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/src/train.py run=proposed-ResNet-20-0.27-M-parameters--CIFAR-10 results_dir=.research/iteration1 mode=trial wandb.mode=disabled run.optuna.n_trials=0 run.training.epochs=1 run.training.batch_size=16
+Saved metrics to /home/toma/t-80-8-b-03/_work/airas-20251023-055954-matsuzawa/airas-20251023-055954-matsuzawa/outputs/2025-10-23/06-38-53/.research/iteration1/proposed-ResNet-20-0.27-M-parameters--CIFAR-10/model_final.pth
+=== [TRIAL RUN] PASSED for proposed-ResNet-20-0.27-M-parameters--CIFAR-10 at Thu Oct 23 06:39:37 AM UTC 2025 ===
+
