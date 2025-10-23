@@ -1,0 +1,66 @@
+run_id: comparative-1-ResNet-20-0.27-M-parameters--CIFAR-10
+method: baseline
+model:
+  name: resnet20
+  depth: 20
+  params_million: 0.27
+  num_classes: 10
+dataset:
+  name: CIFAR-10
+  preprocessing:
+    normalize_mean: [0.4914, 0.4822, 0.4465]
+    normalize_std:  [0.2470, 0.2435, 0.2616]
+    augmentation:
+      random_crop:
+        size: 32
+        padding: 4
+      random_horizontal_flip: 0.5
+  splits:
+    train: 0.9
+    val: 0.1
+training:
+  epochs: 200
+  batch_size: 128
+  optimizer:
+    type: SGD
+    momentum: 0.9
+    weight_decay: 5e-4
+    learning_rate: 0.1
+  scheduler:
+    type: cosine
+    min_lr: 1e-4
+curve_compression:
+  name: logistic_sigmoid
+  m0: 100
+  g0: 0.05
+bayesian_optimisation:
+  algorithm: BOIL
+  bo_steps: 60
+  initial_random_points: 5
+  acquisition: UCB
+  gp:
+    kernel: matern52
+    noise_variance: 1e-4
+optuna:
+  n_trials: 30
+  direction: maximize
+  search_space:
+    learning_rate:
+      type: loguniform
+      low: 1e-3
+      high: 1e-1
+    batch_size:
+      type: categorical
+      choices: [64, 128, 256]
+    weight_decay:
+      type: loguniform
+      low: 1e-6
+      high: 1e-3
+    m0:
+      type: int
+      low: 20
+      high: 180
+    g0:
+      type: loguniform
+      low: 1e-3
+      high: 0.2
