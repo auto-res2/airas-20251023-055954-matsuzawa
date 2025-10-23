@@ -5,18 +5,19 @@ description = "Experiments for BOIL-EDCP vs sigmoid compression"
 requires-python = ">=3.10"
 authors = ["AI Researcher <research@example.com>"]
 
-[project.dependencies]
-torch = ">=2.1.0"
-torchvision = ">=0.16.0"
-timm = ">=0.9.7"
-hydra-core = ">=1.3.2"
-wandb = ">=0.15.0"
-optuna = ">=3.3.0"
-datasets = ">=2.14.0"
-pandas = ">=2.0.3"
-scikit-learn = ">=1.3.0"
-matplotlib = ">=3.8.0"
-seaborn = ">=0.12.2"
-numpy = ">=1.23.0"
-scipy = ">=1.11.0"
-PyYAML = ">=6.0"
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "timm>=0.9.7",
+    "hydra-core>=1.3.2",
+    "wandb>=0.15.0",
+    "optuna>=3.3.0",
+    "datasets>=2.14.0",
+    "pandas>=2.0.3",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.12.2",
+    "numpy>=1.23.0",
+    "scipy>=1.11.0",
+    "PyYAML>=6.0",
+]
