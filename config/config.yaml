@@ -1,4 +1,5 @@
 defaults:
+  - run: ???
   - _self_
 
 mode: full
