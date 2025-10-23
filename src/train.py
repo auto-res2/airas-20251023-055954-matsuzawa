@@ -51,7 +51,14 @@ def accuracy(outputs: torch.Tensor, targets: torch.Tensor) -> float:
 
 def train_once(cfg: DictConfig, trial: optuna.Trial | None = None):
     if trial is not None:
-        # Inject Optuna-suggested hyper-parameters
+        hp_mapping = {
+            "learning_rate": "training.optimizer.learning_rate",
+            "batch_size": "training.batch_size",
+            "weight_decay": "training.optimizer.weight_decay",
+            "m0": "curve_compression.m0",
+            "g0": "curve_compression.g0",
+        }
+        
         for hp_name, space in cfg.run.optuna.search_space.items():
             if space["type"] == "loguniform":
                 sampled = trial.suggest_float(hp_name, space["low"], space["high"], log=True)
@@ -63,8 +70,10 @@ def train_once(cfg: DictConfig, trial: optuna.Trial | None = None):
                 sampled = trial.suggest_int(hp_name, space["low"], space["high"], step=1)
             else:
                 raise ValueError(f"Unsupported search-space type: {space['type']}")
+            
+            config_path = hp_mapping.get(hp_name, hp_name)
             target = cfg.run
-            parts = hp_name.split(".")
+            parts = config_path.split(".")
             for p in parts[:-1]:
                 target = target[p]
             target[parts[-1]] = sampled
@@ -221,11 +230,20 @@ def main(cfg: DictConfig):
 
     # ------------- HPO via Optuna ----------
     if cfg.run.optuna.n_trials > 0:
+        hp_mapping = {
+            "learning_rate": "training.optimizer.learning_rate",
+            "batch_size": "training.batch_size",
+            "weight_decay": "training.optimizer.weight_decay",
+            "m0": "curve_compression.m0",
+            "g0": "curve_compression.g0",
+        }
+        
         study = optuna.create_study(direction=cfg.run.optuna.direction)
         study.optimize(_objective(cfg), n_trials=cfg.run.optuna.n_trials)
         for k, v in study.best_trial.params.items():
+            config_path = hp_mapping.get(k, k)
             target = cfg.run
-            parts = k.split(".")
+            parts = config_path.split(".")
             for p in parts[:-1]:
                 target = target[p]
             target[parts[-1]] = v
